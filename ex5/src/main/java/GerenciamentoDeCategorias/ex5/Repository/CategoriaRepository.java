@@ -1,7 +1,9 @@
 package GerenciamentoDeCategorias.ex5.Repository;
 
-import GerenciamentoDeCategorias.ex5.Model.CategoriasModel;
+import GerenciamentoDeCategorias.ex5.Model.CategoriaModel;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface CategoriaRepository extends JpaRepository<CategoriasModel, Long> {
+@Repository
+public interface CategoriaRepository extends JpaRepository<CategoriaModel, Long> {
 }
